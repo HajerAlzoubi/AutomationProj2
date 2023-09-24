@@ -4,6 +4,11 @@
 
 describe('template spec', () => {
   it('passes', () => {
-    cy.visit('https://global.almosafer.com/en')
+
+    let website = ["https://global.almosafer.com/en","https://global.almosafer.com/ar"]
+
+    let websiteindex = Math.floor(Math.random()*website.length)
+    cy.visit(website[websiteindex])
+    cy.get('.cta__saudi').click()
   })
 })

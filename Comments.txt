@@ -5,4 +5,14 @@ steps to upload project on githup:
 4. copy the order from "...or create a new repository on the command line"
 5. open cmd from ur folder
 6. paste the copy
-7. 
+7. then enter
+8. git add .
+9. git commit -m "homework7"
+10. git push origin main
+
+
+to create array: example
+let website = ["https://global.almosafer.com/en","https://global.almosafer.com/ar"]
+
+to create random number to select index from array:
+let websiteindex = Math.floor(Math.random()*website.length)
