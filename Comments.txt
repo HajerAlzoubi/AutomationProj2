@@ -1,0 +1,8 @@
+steps to upload project on githup:
+1. open ur account on githup
+2. rerostries -> new -> fill project name
+3. click create
+4. copy the order from "...or create a new repository on the command line"
+5. open cmd from ur folder
+6. paste the copy
+7. 
